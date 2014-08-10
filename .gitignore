@@ -3,3 +3,6 @@ dist
 .tmp
 .sass-cache
 bower_components
+.idea/workspace.xml
+.idea/misc.xml
+.idea/AngularApp.iml

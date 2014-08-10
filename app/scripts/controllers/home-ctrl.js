@@ -1,5 +1,4 @@
-var app = angular.module('myApp', ['ngGrid']);
-app.controller('MyCtrl', function($scope) {
+GPAC.POC.Controllers.controller('HomeCtrl', ['$scope', function($scope) {
     $scope.gridOptions = {
         data: 'myData',
         enablePinning: true,
@@ -23,4 +22,4 @@ app.controller('MyCtrl', function($scope) {
                     { name: "Jacob", age: 27, birthday: "Aug 23, 1983", salary: "40,000" },
                     { name: "Nephi", age: 29, birthday: "May 31, 2010", salary: "50,000" },
                     { name: "Enos", age: 34, birthday: "Aug 3, 2008", salary: "30,000" }];
-});
+}]);
