@@ -3,7 +3,8 @@ GPAC.POC = {};
 
 GPAC.POC.Libs = angular.module('gpac.poc.libs', [
     'ngRoute',
-    'ngGrid'
+    'ngGrid',
+    'ui.bootstrap'
 ]);
 GPAC.POC.Controllers = angular.module('gpac.poc.controllers', []);
 GPAC.POC.Directives = angular.module('gpac.poc.directives', []);
@@ -22,7 +23,9 @@ GPAC.POC.App = angular.module('gpacPOC', [
 
 .config(function($routeProvider, $locationProvider) {
     $routeProvider
-        .when('/home', {
+        /*.when('/home', {
+            templateUrl: 'views/home.html'
+        })*/.otherwise({
             templateUrl: 'views/home.html'
         });
 
