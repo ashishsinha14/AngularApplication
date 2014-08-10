@@ -1,7 +1,11 @@
 {
   "name": "angularapp",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "js-yaml": "~3.1.0",
+    "whet.extend": "~0.9.9",
+    "sax": "~0.6.0"
+  },
   "devDependencies": {
     "grunt": "^0.4.1",
     "grunt-autoprefixer": "^0.7.3",
