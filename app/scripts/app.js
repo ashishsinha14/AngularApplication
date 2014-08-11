@@ -4,7 +4,8 @@ GPAC.POC = {};
 GPAC.POC.Libs = angular.module('gpac.poc.libs', [
     'ngRoute',
     'ngGrid',
-    'ui.bootstrap'
+    'ui.bootstrap',
+    'angular-data.DSCacheFactory'
 ]);
 GPAC.POC.Controllers = angular.module('gpac.poc.controllers', []);
 GPAC.POC.Directives = angular.module('gpac.poc.directives', []);
@@ -30,4 +31,7 @@ GPAC.POC.App = angular.module('gpacPOC', [
         });
 
     $locationProvider.html5Mode(false);
+})
+
+.run(function () {
 });
